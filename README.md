@@ -2,7 +2,7 @@
 
 3 steps to integrate the SPNavigationDrawer on your iOS application with Swift 3.0
 
-![Screenshot](https://github.com/ssowri1/DashBoard-Gauge/blob/master/ScreenShot.gif?raw=true)
+![Screenshot]()
 
 **INSTALLATION** 
 
@@ -13,11 +13,11 @@
 - You're done. Go Ahead :-)
 
     var drawerVw = DrawerView()
-    drawerVw = DrawerView(aryControllers:DrawerArray.array, isBlurEffect:true, isHeaderInTop:false, controller:self)
-    drawerVw.delegate = self
-    drawerVw.changeUserName(name: "Sowrirajan Sugumaran")
-    drawerVw.show()
- 
+        drawerVw = DrawerView(aryControllers:DrawerArray.array, isBlurEffect:true, isHeaderInTop:false, controller:self)
+        drawerVw.delegate = self
+        drawerVw.changeUserName(name: "Sowrirajan Sugumaran")
+        drawerVw.show()
+        
  Denote the storyboard of viewcontrollers which wnat you show on SPNavigationDrawer.
  
     struct DrawerArray {
