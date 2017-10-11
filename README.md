@@ -10,6 +10,7 @@ Using **SPNavigationDrawer** can integrate **NavigationDrawer** alongwith **TABb
 - Drag and drop the Configuration folder into your project and initialize it.
 - Then link the delegate protocol for accessing the delegate methods. 
 - let's implement the drawer view object and set delecate to current view controller.
+- Connect the tab bar controller with your view controller in StoryBoard
 - show the Navigation drawer (drawerVw.show())
 
         drawerVw = DrawerView(aryControllers:DrawerArray.array, isBlurEffect:true, isHeaderInTop:false, controller:self)
