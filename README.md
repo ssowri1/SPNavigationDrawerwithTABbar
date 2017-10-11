@@ -10,19 +10,24 @@
 - Then link the delegate protocol for accessing the delegate methods. 
 - let's implement the drawer view object and set delecate to current view controller.
 - show the Navigation drawer (drawerVw.show())
-- You're done. Go Ahead :-)
 
-    var drawerVw = DrawerView()
         drawerVw = DrawerView(aryControllers:DrawerArray.array, isBlurEffect:true, isHeaderInTop:false, controller:self)
         drawerVw.delegate = self
         drawerVw.changeUserName(name: "Sowrirajan Sugumaran")
         drawerVw.show()
         
- Denote the storyboard of viewcontrollers which wnat you show on SPNavigationDrawer.
+Push the viewcontroller which is selected by user.
+
+        func pushTo(viewController: UIViewController) {
+        self.navigationController?.pushViewController(viewController, animated: true)
+        }
+
+Denote the storyboard of viewcontrollers which wnat you show on SPNavigationDrawer.
  
-    struct DrawerArray {
-    static let array:NSArray = ["MyAccount", "Offers", "History","Offers", "Language", "Settings", "History"]
-    }
+        struct DrawerArray {
+        static let array:NSArray = ["MyAccount", "Offers", "History","Offers", "Language", "Settings", "History"]
+        }
+    
     
 ## Authors
 
