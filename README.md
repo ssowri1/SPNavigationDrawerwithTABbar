@@ -6,7 +6,7 @@
 
 **INSTALLATION** 
 
-- Drag and drop the Configuration folder to your project and initialize it.
+- Drag and drop the Configuration folder into your project and initialize it.
 - Then link the delegate protocol for accessing the delegate methods. 
 - let's implement the drawer view object and set delecate to current view controller.
 - show the Navigation drawer (drawerVw.show())
