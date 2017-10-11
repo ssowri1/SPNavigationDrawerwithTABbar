@@ -1,6 +1,7 @@
 ### SPNavigationDrawer
 
-3 steps to integrate the SPNavigationDrawer on your iOS application with Swift 3.0
+3 steps to integrate the SPNavigationDrawerWithTABbar on your iOS application with Swift 3.0.
+Using **SPNavigationDrawer** can integrate **NavigationDrawer** alongwith **TABbarController**
 
 ![Screenshot]()
 
