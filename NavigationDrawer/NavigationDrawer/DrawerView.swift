@@ -193,6 +193,7 @@ class DrawerView: UIView, drawerProtocolNew, UITableViewDelegate, UITableViewDat
         cell.imgController?.image = UIImage(named: (aryViewControllers[indexPath.row] as? String)!)
         cell.lblController.textColor = self.cellTextColor ?? UIColor.white
         cell.lblController.font = fontNew ?? UIFont(name: "Euphemia UCAS", size: 18)
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
 
         return cell
     }
