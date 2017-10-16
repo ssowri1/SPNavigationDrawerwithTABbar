@@ -1,6 +1,7 @@
 ### SPNavigationDrawer
 
-3 steps to integrate the SPNavigationDrawerWithTABbar on your iOS application with Swift 3.0.
+This is a Custom Navigation controller along with tab bar controller in iOS and it's made in Swift 3.
+There are 3 steps only to integrate the SPNavigationDrawerWithTABbar.
 Using **SPNavigationDrawer** can integrate **NavigationDrawer** alongwith **TABbarController**
 
 ![Screenshot](https://github.com/ssowri1/SPNavigationDrawerwithTABbar/blob/master/Screenshot.gif?raw=true)
