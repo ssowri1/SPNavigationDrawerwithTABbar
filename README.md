@@ -25,7 +25,7 @@ Push the viewcontroller which is selected by user.
         self.navigationController?.pushViewController(viewController, animated: true)
         }
 
-Denote the storyboard of viewcontrollers which wnat you show on SPNavigationDrawer.
+Denote the storyboard of viewcontrollers which want you show on SPNavigationDrawer.
  
         struct DrawerArray {
         static let array:NSArray = ["MyAccount", "Offers", "History","Offers", "Language", "Settings", "History"]
