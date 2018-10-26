@@ -14,16 +14,24 @@ Using **SPNavigationDrawer** can integrate **NavigationDrawer** alongwith **TABb
 - Connect the tab bar controller with your view controller in StoryBoard
 - show the Navigation drawer (drawerVw.show())
 
+         //**** REQUIRED ****//
+        //**** Implement the drawer view object and set delecate to current view controller
         drawerVw = DrawerView(aryControllers:DrawerArray.array, isBlurEffect:true, isHeaderInTop:false, controller:self)
         drawerVw.delegate = self
+        
+        // Can change account holder name
         drawerVw.changeUserName(name: "Sowrirajan Sugumaran")
+        
+        // show the Navigation drawer.
         drawerVw.show()
         
 Push the viewcontroller which is selected by user.
 
-        func pushTo(viewController: UIViewController) {
+        
+    // To push the viewcontroller which is selected by user.
+    func pushTo(viewController: UIViewController) {
         self.navigationController?.pushViewController(viewController, animated: true)
-        }
+    }
 
 Denote the storyboard of viewcontrollers which want you show on SPNavigationDrawer.
  
